@@ -11,4 +11,9 @@ body {
     grid-template-rows: .25fr .75fr 2fr;
 }
 
+#title {
+    display: flex;
+    justify-content: center;
+}
+
 
