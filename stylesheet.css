@@ -25,14 +25,16 @@ body {
 
 #title-holder{
     grid-column: 2 / 3;
+    display: flex;
 }
 
 #subject-holder {
     grid-column: 3 / 4;
+    display: flex;
 }
 
 #text-holder {
     grid-row: 2 / 3;
     grid-column: 2 / 4;
-
+    display: flex;
 }
