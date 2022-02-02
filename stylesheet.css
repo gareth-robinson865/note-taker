@@ -23,15 +23,15 @@ body {
     grid-template-rows: repeat(2, 1fr);
 }
 
-#note-title{
+#title-holder{
     grid-column: 2 / 3;
 }
 
-#subject {
+#subject-holder {
     grid-column: 3 / 4;
 }
 
-#text-input {
+#text-holder {
     grid-row: 2 / 3;
     grid-column: 2 / 4;
 
