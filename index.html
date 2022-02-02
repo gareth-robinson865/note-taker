@@ -15,14 +15,20 @@
         
         <section id="input">
             <form id="input-area">
-                <label for="title">Title</label>
-                <input type="text" name="title" id="note-title" placeholder="Note title">
+                <div id="title-holder">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="note-title" placeholder="Note title">  
+                </div>
 
-                <label for="subject">Subject</label>
-                <input type="text" name="subject" id="subject" placeholder="Note subject">
-
-                <label for="text-input">Note:</label>
-                <textarea name="Note" rows="1" columns="3000" placeholder="Type your note here" id="text-input"></textarea>
+                <div id="subject-holder">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" placeholder="Note subject">
+                </div>
+                
+                <div id="text-holder">
+                    <label for="text-input">Note:</label>
+                    <textarea name="Note" rows="1" columns="3000" placeholder="Type your note here" id="text-input"></textarea>
+                </div>
 
                 <button type="submit" id="create-btn">Create note</button>
             </form>
