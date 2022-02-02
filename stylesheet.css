@@ -8,5 +8,7 @@ body {
     width:80%;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: .75fr 1.25fr;
+    grid-template-rows: repeat(4, 1fr);
 }
+
+
