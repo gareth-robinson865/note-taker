@@ -17,7 +17,22 @@ body {
 }
 
 #input-area {
+    background: blue;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+
+#note-title{
+    grid-column: 2 / 3;
+}
+
+#subject {
+    grid-column: 3 / 4;
+}
+
+#text-input {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+
 }
