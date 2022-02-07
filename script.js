@@ -16,6 +16,8 @@ const addNote = (ev) => {
     let newListItem = document.createElement("li");
     newListItem.setAttribute("id", "active-list-item"+numberOfNotes);
     newListItem.setAttribute("class", "active-list-item");
+
+    
 }
 
 document.addEventListener('DOMContentLoaded', () => {
