@@ -12,9 +12,10 @@ const addNote = (ev) => {
     //reseting the forms to blank after the submit button has been clicked
     document.forms[0].reset();
 
-    //create a new lits item with the class "active-list-item"
+    //create a new lits item with the class "active-list-item" and an individual ID
     let newListItem = document.createElement("li");
-
+    newListItem.setAttribute("id", "active-list-item"+numberOfNotes);
+    newListItem.setAttribute("class", "active-list-item");
 }
 
 document.addEventListener('DOMContentLoaded', () => {
