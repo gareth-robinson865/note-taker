@@ -1,3 +1,5 @@
+let numberOfNotes = 0;
+
 const addNote = (ev) => {
     //stopping the page from reloading when form is submitted
     ev.preventDefault();
@@ -9,6 +11,10 @@ const addNote = (ev) => {
     
     //reseting the forms to blank after the submit button has been clicked
     document.forms[0].reset();
+
+    //create a new lits item with the class "active-list-item"
+    let newListItem = document.createElement("li");
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
