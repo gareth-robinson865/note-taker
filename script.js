@@ -17,7 +17,10 @@ const addNote = (ev) => {
     newListItem.setAttribute("id", "active-list-item"+numberOfNotes);
     newListItem.setAttribute("class", "active-list-item");
 
-    
+    // creating the elements to hold the different inputs that have been created
+    let titleHolder = document.createElement("h3");
+    let subjectHolder = document.createElement("h5");
+    let inputHolder = document.createElement("p");
 }
 
 document.addEventListener('DOMContentLoaded', () => {
