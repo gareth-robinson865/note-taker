@@ -21,6 +21,13 @@ const addNote = (ev) => {
     let titleHolder = document.createElement("h3");
     let subjectHolder = document.createElement("h5");
     let inputHolder = document.createElement("p");
+
+    //create a delete button
+    let deleteButton = document.createElement('input');
+    deleteButton.setAttribute('id', 'delete-btn');
+    deleteButton.setAttribute('type', 'button');
+    deleteButton.setAttribute('value', 'remove');
+    deleteButton.setAttribute('onclick', 'deleteNote("+ numberOfNotes +);');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
