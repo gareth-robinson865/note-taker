@@ -35,6 +35,8 @@ const addNote = (ev) => {
     //appending the subject to subject element
     subjectHolder.appendChild(subject);
 
+    //creating text to to be appended to the note section
+    let noteText = document.createTextNode(note);
 
 }
 
