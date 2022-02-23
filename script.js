@@ -46,7 +46,9 @@ const addNote = (ev) => {
     newListItem.appendChild(subjectHolder);
     newListItem.appendChild(inputHolder);
 
-    
+    //appending the list item to the overall list
+    let noteList = document.getElementById('note-display-area');
+    noteList.appendChild(newListItem);
 
 }
 
