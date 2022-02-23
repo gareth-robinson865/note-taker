@@ -32,6 +32,10 @@ const addNote = (ev) => {
     //appending the title section to the titleholder element
     titleHolder.appendChild(title);
 
+    //appending the subject to subject element
+    subjectHolder.appendChild(subject);
+
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
