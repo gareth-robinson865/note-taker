@@ -41,6 +41,13 @@ const addNote = (ev) => {
     //appending the text to the p input holder element
     inputHolder.appendChild(noteText);
 
+    //appending the note, subject and title to the list element
+    newListItem.appendChild(titleHolder);
+    newListItem.appendChild(subjectHolder);
+    newListItem.appendChild(inputHolder);
+
+    
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
