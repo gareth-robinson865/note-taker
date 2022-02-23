@@ -54,6 +54,10 @@ const addNote = (ev) => {
     numberOfNotes++
 }
 
+const deleteNote = (ID) => {
+    document.getElementById('active-list-item'+ID).remove();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('create-btn').addEventListener('click', addNote);
 })
