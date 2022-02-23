@@ -28,6 +28,10 @@ const addNote = (ev) => {
     deleteButton.setAttribute('type', 'button');
     deleteButton.setAttribute('value', 'remove');
     deleteButton.setAttribute('onclick', 'deleteNote("+ numberOfNotes +);');
+
+    //appending the title section to the titleholder element
+    titleHolder.appendChild(title);
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
