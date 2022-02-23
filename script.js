@@ -38,6 +38,9 @@ const addNote = (ev) => {
     //creating text to to be appended to the note section
     let noteText = document.createTextNode(note);
 
+    //appending the text to the p input holder element
+    inputHolder.appendChild(noteText);
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
