@@ -50,6 +50,8 @@ const addNote = (ev) => {
     let noteList = document.getElementById('note-display-area');
     noteList.appendChild(newListItem);
 
+    //increament the number of notes for next ID
+    numberOfNotes++
 }
 
 document.addEventListener('DOMContentLoaded', () => {
