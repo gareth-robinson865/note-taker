@@ -8,7 +8,9 @@ const addNote = (ev) => {
     let title = document.getElementById('note-title').value;
     let subject = document.getElementById('subject').value;
     let note = document.getElementById('text-input').value;
-    
+    console.log(title);
+    console.log(subject);
+    console.log(note);
     //reseting the forms to blank after the submit button has been clicked
     document.forms[0].reset();
 
@@ -30,10 +32,12 @@ const addNote = (ev) => {
     deleteButton.setAttribute('onclick', 'deleteNote("+ numberOfNotes +);');
 
     //appending the title section to the titleholder element
-    titleHolder.appendChild(title);
-
+    let titleText = document.createTextNode(title);
+    titleHolder.appendChild(titleText);
+    console.log(titleHolder);
     //appending the subject to subject element
-    subjectHolder.appendChild(subject);
+    let subjectText = document.createTextNode(subject);
+    subjectHolder.appendChild(subjectText);
 
     //creating text to to be appended to the note section
     let noteText = document.createTextNode(note);
