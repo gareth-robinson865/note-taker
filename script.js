@@ -8,9 +8,7 @@ const addNote = (ev) => {
     let title = document.getElementById('note-title').value;
     let subject = document.getElementById('subject').value;
     let note = document.getElementById('text-input').value;
-    console.log(title);
-    console.log(subject);
-    console.log(note);
+    
     //reseting the forms to blank after the submit button has been clicked
     document.forms[0].reset();
 
