@@ -32,7 +32,7 @@ const addNote = (ev) => {
     deleteButton.setAttribute('id', 'delete-btn');
     deleteButton.setAttribute('type', 'button');
     deleteButton.setAttribute('value', 'remove');
-    deleteButton.setAttribute('onclick', 'deleteNote("+ numberOfNotes +);');
+    deleteButton.setAttribute('onclick', 'deleteNote('+ numberOfNotes +');');
 
     //appending the title section to the titleholder element
     let titleText = document.createTextNode(title);
