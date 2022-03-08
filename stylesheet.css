@@ -24,6 +24,7 @@ body {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 35vh;
+    font-size: 1.3rem;
 }
 
 #title-holder{
@@ -48,9 +49,19 @@ body {
     justify-content: center;
 }
 
+#btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+
 #create-btn {
     height: 50px;
     width: 100px;
     border-radius: 20px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
