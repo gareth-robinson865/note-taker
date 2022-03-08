@@ -29,6 +29,8 @@ body {
 #title-holder{
     grid-column: 2 / 3;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #subject-holder {
@@ -46,4 +48,5 @@ body {
     height: 50px;
     width: 100px;
     border-radius: 20px;
+    margin: 0 auto;
 }
