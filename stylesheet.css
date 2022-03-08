@@ -65,3 +65,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#note-display-area {
+    list-style-type: none;
+    background: black;
+    width: 100%;
+    margin:0;
+    
+}
+
+.active-list-item {
+    background: green;
+    width: 100%;
+}
