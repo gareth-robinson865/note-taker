@@ -9,6 +9,8 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-rows: .25fr .75fr 2fr;
+    background-color: red;
+    height: 100vh;
 }
 
 #title {
