@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     background-color: red;
     height: 100vh;
+    border-radius: 15px;
 }
 
 #title {
