@@ -91,6 +91,7 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    overflow: scroll;
 }
 
 .title-content {
