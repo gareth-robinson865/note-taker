@@ -116,4 +116,6 @@ textarea {
 
 #delete-btn{
     grid-column: 10 / 11;
+    height: 50px;
+    width: 100px;
 }
