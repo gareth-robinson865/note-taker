@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 15vh;
+    height: 25vh;
     font-size: 1.3rem;
 }
 
@@ -106,4 +106,9 @@ body {
     grid-column: 1 / 12;
     display: flex;
     justify-content: center;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
 }
