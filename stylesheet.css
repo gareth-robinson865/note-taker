@@ -26,6 +26,7 @@ body {
     grid-template-rows: repeat(2, 1fr);
     height: 25vh;
     font-size: 1.3rem;
+    border: 2px solid black;
 }
 
 #title-holder{
