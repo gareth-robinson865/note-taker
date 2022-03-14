@@ -76,7 +76,6 @@ body {
 
 }
 #note-display-area {
-    background: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +84,8 @@ body {
 }
 
 .active-list-item {
-    background: green;
+    background: darkblue;
+    color: white;
     width: 90%;
     border: 2px solid grey;
     border-radius: 10px;
