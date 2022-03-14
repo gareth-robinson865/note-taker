@@ -20,7 +20,7 @@ const addNote = (ev) => {
     // creating the elements to hold the different inputs that have been created
     let titleHolder = document.createElement("h3");
     titleHolder.setAttribute("class", "title-content");
-    let subjectHolder = document.createElement("h5");
+    let subjectHolder = document.createElement("h3");
     subjectHolder.setAttribute("class", "subject-content")
     let inputHolder = document.createElement("p");
     inputHolder.setAttribute("class", "note-content")
